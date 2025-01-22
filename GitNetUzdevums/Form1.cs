@@ -98,7 +98,6 @@ namespace WindowsFormsApplication_15
             G.DrawLine(myPen, xc, 10, xc, 2 * yc - 10);
             myPen = new Pen(Color.Black);
             x = -Math.PI;
-            // funkcijas grafika konstruēšanas cikls
             while (x < Math.PI)
             {
                 try   // ja funkcija kādā punktā neeksistē 
